@@ -1,0 +1,68 @@
+Search Strategy
+
+Databases: ABI/INFORM® Professional Standard, AGRICOLA, AGRIS, Allied & Complementary Medicine™, Analytical Abstracts, British Library Inside Conferences, British Nursing Index, Business & Industry, Business Monitor International, Chemical Engineering & Biotechnology Abstracts, Economist Intelligence Unit, Emerging Markets Direct, Energy Science and Technology, ESPICOM Pharmaceutical & Medical Device News, FDAnews, Gale Group Computer Database™, Gale Group Health Periodicals Database, Gale Group New Product Announcements / Plus®, Gale Group Newsletter Database™, Gale Group PharmaBiomed Business Journals, Gale Group PROMT®, Gale Group Trade & Industry Database™, HSELINE: Health and Safety, ICONDA - International Construction Database, Inspec®, Jane's Defense & Aerospace News, Lancet Titles, Material Safety Datasheets -OHS™, MEDLINE®, New England Journal of Medicine, Paperbase, ProQuest Biological & Health Science Professional, ProQuest Environmental Science Professional, ProQuest Newsstand Professional, ProQuest Research, ProQuest Technology Research Professional, Registry of Toxic Effects of Chemical Substances (RTECS®), ToxFile®, Transport Research International Documentation, TULSA™ (Petroleum Abstracts), UBM Computer Full Text, Weldasearch®
+
+Set#: S1
+Searched for: (lateral flow* or immunosorbent* or immunoassay* or LFA* or ELISA*)
+
+Results: 2727326*
+
+Set#: S2
+Searched for: S1 AND ((linear* or weight*) NEAR/2 (combination* or score* or classifier* or vector* OR MODEL*))
+
+Results: 56950*
+
+Set#: S3
+Searched for: S2 AND ((broad* or wide* or "cross reactivity" or "cross react" or "low specificity") NEAR/4 (antibod* or immunoglobulin*))
+
+Results: 698°
+
+Set#: S4
+Searched for: s3 and ((detect* or identif* or measur* or screen* or profile*) near (pathogen* or germ* or virus* or viral* or bacteri* or fungi* or fungus* or microb*))
+
+Results: 325°
+
+Set#: S5
+Searched for: s4 and ((compar* or threshold*) near (linear* or weight* or combination* or score* or classifier* or vector*))
+
+Results: 126°
+
+Set#: S6
+Searched for: s5 and ((universal* or profile* or signature* or "linear combination") near (pathogen* or germ* or virus* or viral* or bacteri* or fungi* or fungus* or microb*))
+
+Results: 33°
+
+Set#: S7
+Searched for: ((universal* or profil* or signature* or "linear combination") near (pathogen* or germ* or virus* or viral* or bacteri* or fungi* or fungus* or microb*))
+
+Results: 226825*
+
+Set#: S8
+Searched for: s7 and ((compar* or threshold*) near (linear* or weight* or combination* or score* or classifier* or vector*))
+
+Results: 6555*
+
+Set#: S9
+Searched for: s8 and ((detect* or identif* or measur* or screen* or profile*) near (pathogen* or germ* or virus* or viral* or bacteri* or fungi* or fungus* or microb*))
+
+Results: 5436*
+
+Set#: S10
+Searched for: s9 and ab,ti((universal* or profil* or signature* or "linear combination") near (pathogen* or germ* or virus* or viral* or bacteri* or fungi* or fungus* or microb*))
+
+Results: 611°
+
+Set#: S11
+Searched for: s10 and ab,ti((detect* or identif* or measur* or screen* or profile*) near (pathogen* or germ* or virus* or viral* or bacteri* or fungi* or fungus* or microb*))
+
+Results: 506°
+
+Set#: S12
+Searched for: s11 and (lateral flow* or immunosorbent* or immunoassay* or LFA* or ELISA*)
+
+Results: 62°
+
+* Duplicates are removed from the search, but included in the result count.
+° Duplicates are removed from the search and from the result count.
+----------------------------------------------------------
+
